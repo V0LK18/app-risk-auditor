@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">App Risk Auditor</string>
+    <string name="summary_low">Nothing here looks unusual</string>
+    <string name="summary_medium">Worth a look if you don\'t use this app much</string>
+    <string name="summary_high">This app has powerful access. Review it</string>
+    <string name="summary_critical">This app can do serious harm. Review it now</string>
+    <string name="advice_low">This app appears safe based on current permissions and source.</string>
+    <string name="advice_medium">If you don\'t use this app often, consider revoking unused permissions or uninstalling it.</string>
+    <string name="advice_high_critical">If you don\'t recognise or use this app, remove it.</string>
+    <string name="why_flagged_title">Why flagged</string>
+    <string name="no_risky_access">No risky access found</string>
+    <string name="show_all">Show all (%1$d)</string>
+    <string name="show_less">Show less</string>
+    <string name="special_access_panel_title">Special access</string>
+    <string name="permissions_by_category_title">Permissions by category</string>
+    <string name="what_you_can_do_title">What you can do now</string>
+    <string name="open_app_settings">Open app settings</string>
+    <string name="uninstall_app">Uninstall</string>
+    <string name="system_app_cannot_uninstall">System app: cannot be uninstalled, you can disable it in settings</string>
+    <string name="open_accessibility_settings">Open Accessibility settings</string>
+    <string name="open_notification_access_settings">Open Notification access settings</string>
+    <string name="open_device_admin_settings">Open Device admin settings</string>
+    <string name="device_admin_warning">This app is a device administrator. You must switch that off before you can uninstall it.</string>
+    <string name="open_overlay_settings">Open overlay settings</string>
+    <string name="app_not_found">App not found or uninstalled.</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="top_3_riskiest">Top 3 Riskiest Apps</string>
+    <string name="total_apps">Total Apps: %1$d</string>
+    <string name="include_system_apps">Include system apps</string>
+
+    <!-- Stage 5 Strings -->
+    <string name="device_summary_title">Device summary</string>
+    <string name="search_hint">Search apps or package names&#8230;</string>
+    <string name="filter_all">All</string>
+    <string name="filter_flagged">Flagged</string>
+    <string name="filter_medium">Medium</string>
+    <string name="filter_low">Low</string>
+    <string name="clear_filter">Clear filter</string>
+    <string name="no_apps_match">No apps match the current search or filters.</string>
+    <string name="sort_by">Sort by</string>
+    <string name="sort_risk_score">Risk Score</string>
+    <string name="sort_name">App Name</string>
+    <string name="sort_recently_installed">Recently Installed</string>
+    <string name="sort_recently_updated">Recently Updated</string>
+    <string name="rescan_now">Rescan now</string>
+    <string name="about_app">About this app</string>
+    <string name="last_scanned">Last scanned: %1$s</string>
+    <string name="first_run_title">Welcome to App Risk Auditor</string>
+    <string name="first_run_bullet_1">Audits installed applications for risky permissions and sensitive device capabilities.</string>
+    <string name="first_run_bullet_2">Calculates clear risk scores and explains reasons in plain English.</string>
+    <string name="first_run_bullet_3">Provides quick action shortcuts to review, restrict, or uninstall suspicious apps.</string>
+    <string name="first_run_privacy_note">100% On-Device &amp; Offline: All scanning happens locally on your device. No data is ever uploaded.</string>
+    <string name="first_run_permission_note">App Visibility: Uses QUERY_ALL_PACKAGES to inspect all installed applications for risk evaluation.</string>
+    <string name="got_it">Got it</string>
+</resources>
